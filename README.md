@@ -1,5 +1,8 @@
 ## A small tool to generate timeline for podcasts
 
+### Dependencies and Env
+- Tested on Python 3.8
+- You need to install `ffmpeg` for this to work
 ### Sample Usage
 Simply replace the `PATH` and `glob` for your need and run the script directly
 
