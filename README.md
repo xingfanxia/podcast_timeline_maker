@@ -4,7 +4,7 @@
 - Tested on `python=3.8`
 - You need to install `ffmpeg` for this to work
 ### Sample Usage
-Simply replace the `PATH` and `glob` for your need and run the script directly
+Simply replace the `PATH` and `glob` for your need and run the script
 
 Example
 ```
@@ -22,3 +22,5 @@ powered by ffprobe & python :)
 1:08:45  --  敦刻尔克 第06集 逃出生天 联军艰难撤退
 1:23:14  --  敦刻尔克 第07集 鹰击长空 英德空军争霸
 ```
+
+Or use `python3 get_duration.py | pbcopy` to directly use at your convenience

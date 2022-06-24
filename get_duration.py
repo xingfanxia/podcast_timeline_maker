@@ -30,7 +30,7 @@ powered by ffprobe & python :)
 ********************************
 ''')
 prev =datetime.timedelta(seconds=0)
-for f in sorted(Path("/Users/xingfanxia/Downloads/袁腾飞/二战那些事儿").glob("*敦刻尔克*.m4a")):
+for f in sorted(Path("/Users/xingfanxia/Downloads/袁腾飞/二战那些事儿").glob("*反攻欧陆*.m4a")):
     print(str(prev).split(".")[0], " -- ", os.path.splitext(os.path.basename(f))[0].split(' ', 1)[1]) 
     cur_duration = datetime.timedelta(seconds=video_length_seconds(f))
     running_sum = cur_duration + prev
